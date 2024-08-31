@@ -3,7 +3,7 @@ name: Deploy VueJS Project
 on:
   push:
     branches:
-      - master
+      - main
 
 jobs:
   build:
