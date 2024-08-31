@@ -16,7 +16,7 @@ jobs:
       - name: Install Dependencies
         run: npm install
       - name: Build App
-        run: npm run build -- --base=/dreamstore123online.gtihub.io/
+        run: npm run build
       - name: Archive artifact
         shell: sh
         run: |
